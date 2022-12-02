@@ -1,0 +1,104 @@
+<mxfile host="65bd71144e">
+    <diagram id="Qj6BADVXswgtjjs6Tc0f" name="第 1 页">
+        <mxGraphModel dx="806" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="知识建模" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="知识抽取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="470" y="180.42857142857144" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="25">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="知识融合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="知识存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="知识计算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;h1&gt;领域知识图谱&lt;/h1&gt;&lt;p&gt;数据来源：WikiPedia、博客等&lt;/p&gt;&lt;p&gt;知识抽取：结构化、非结构化数据，联合抽取。&lt;/p&gt;&lt;p&gt;方式：自顶向下&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" width="190" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Protege" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="结构化：D2R工具（Triplify, D2RServer, OpenLink, SparqlMap, Ontop&lt;br&gt;半结构化：包装器、（if exists,专门针对wiki的工具）&lt;br&gt;非结构化：实体识别、关系抽取" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="280" width="240" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="具体包含了知识对齐、合并" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="60" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="模式层融合：概念合并、概念上下位关系合并、概念的属性定义合并（专家人工构建或从可靠的结构化数据中映射生成，通常要设置规则）&lt;br&gt;数据层的融合：实体合并、实体属性融合以及冲突检测与解决" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="400" width="320" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="存储方案的优劣直接影响了查询的效率，" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="40" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="28" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="单一式存储：三元组、属性表等&lt;br&gt;&lt;br&gt;混合式存储：将图形数据库与关系数据库相结合进行知识图谱的存储" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="230" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="原生存储Neo4j存储：优点：本身已经提供了较为完善的图查询语言或算法支持，但不支持定制，灵活程度不高，对复杂节点的极端数据情况的表现非常差；&lt;br&gt;&lt;br&gt;现有数据库存储MySQL：自由程度高，可以根据数据特点进行知识的划分、索引的构建等，但开发和维护成本比较高。" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="340" width="290" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="例如：知识推理" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="40" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="36" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="知识应用" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="830" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="语义搜索：考虑如何解决自然语言输入带来的表达多样性问题、解决语言中实体消歧问题&lt;br&gt;智能问答：针对用户输入 的自然语言进行理解，从知识图谱或目标数据中给出用户 问题的答案。其关键和难点包括了准确的语义解析。&lt;br&gt;可视化决策支持：提供统一的图形接口，结合可视化、推理、检索等为用户提供信息获取的入口。（基于GraphViz）的可视化（在Pretege里面有）" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="850" y="250" width="470" height="220" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
